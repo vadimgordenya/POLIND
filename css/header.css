@@ -1,0 +1,148 @@
+.header {
+	min-height: 1209px;
+	width: 100%;
+	background: #343434 url("../img/header.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	overflow-x: hidden;
+	display: flex;
+}
+.header__bg {
+	width: 100%;
+	min-height: 1209px;
+	background: rgba(10,10,10,0.8);
+}
+.top__wrapp {
+	min-height: 120px;
+	width: 100%;
+	background: none;
+}
+.top__logo,
+.top__nav {
+	display: inline-block;
+	width: 49.8%;
+}
+.top__logo {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+.nav__menu {
+	width: 100%;
+	text-align: right;
+	padding-right: 40px;
+}
+.nav__menu li {
+	display: inline-block;
+}
+.nav__menu li  a {
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 12px 18px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	border: 2px solid  #fff;
+}
+.fa-search {
+	color: #ffc74a;
+	padding-left: 20px;
+	cursor: pointer;
+}
+.nav__menu li  a:hover {
+	border: 2px solid #73382e;
+	color: #73382e;
+	box-sizing: border-box;
+}
+.header__text-top {
+	padding-top: 180px;
+	padding-bottom: 250px;
+	width: 100%;
+	text-align: center;
+}
+
+.header__text-top {
+	color: #fff;
+	font-size: 60px;
+	font-weight: bold;
+}
+.text__top {
+	font-size: 92px;
+	font-weight: lighter;
+	font-weight: bold;
+}
+.text__oranges {
+	color: #ed6950;
+}
+.small__text {
+	font-size: 18px;
+	color: #606264;
+}
+.btn {
+	margin-top: 50px;
+	width: 233px;
+	padding: 21px 33px;
+	background: #ffc74a;
+	color: #b98000;
+	border:none;
+	border-radius: 30px;
+	cursor: pointer; 
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	outline: none;
+}
+.btn:hover {
+	color: #fff;
+}
+.header__text-bottom {
+	text-align: center;	
+}
+.form {
+	background-color: #fff;
+	border-radius: 5px 5px 5px 5px;
+}
+.form > input {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-bottom: 2px solid #d6d6d6;
+	outline: none;
+}
+.name__form {
+	width: 100%;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #f5f5f5;
+	border-radius: 5px 5px 0 0;
+	padding: 20px 20px;
+}
+.logo {
+	display: block;
+	margin: 40px 20px 40px 40px;
+	cursor: pointer;
+}
+.text__logo {
+	display: block;
+}
+.logo,
+.text__logo {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.btn__get-started {
+	padding: 20px 0;
+	margin-top: 25px;
+	width: 100%;
+	background-color: #ff9b51;
+	border: none;
+	cursor: pointer;
+	border-radius: 0 0 5px 5px;
+	color: #fff;
+	font-weight: bold;
+}
