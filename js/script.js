@@ -1,7 +1,7 @@
+$(window).load(function() {
+        $(".loader__wrapp").css("display", "none");
+});
 $(document).ready(function(){
-        	$(".loader__wrapp").css("display", "none");
-    	
-
 	$(".tab__first").click(function(){
 		$(".first").css("display","inline-block");
 		$(".second").css("display","none");
