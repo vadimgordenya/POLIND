@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+	$(".loader").css("display","none");
 
 	$(".tab__first").click(function(){
 		$(".first").css("display","inline-block");
