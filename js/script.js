@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	setTimeout(function() {
-        	$(".loader").css("display", "none");
+        	$(".loader__wrapp").css("display", "none");
     	}, 3000);
 
 	$(".tab__first").click(function(){
