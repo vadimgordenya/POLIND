@@ -1,5 +1,7 @@
 $(document).ready(function(){
+	setInterval(function(){
 	$(".loader").css("display","none");
+	},3000);
 
 	$(".tab__first").click(function(){
 		$(".first").css("display","inline-block");
