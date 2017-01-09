@@ -1,7 +1,8 @@
+$(window).on('load', function() {
+    var $preloader = $(".loader__wrapp");
+    $preloader.delay(2000).fadeOut('slow');
+}); 
 $(document).ready(function(){
-	setTimeout(function() {
-        	$(".loader__wrapp").css("display", "none");
-    	}, 3000);
 	$(".tab__first").click(function(){
 		$(".first").css("display","inline-block");
 		$(".second").css("display","none");
